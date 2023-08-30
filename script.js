@@ -3,7 +3,7 @@ function run() {
     let cssCode = document.getElementById("css_code").value;
     let jsCode = document.getElementById("js_code").value;
 
-    console.log(cssCode);
+    // console.log(cssCode);
     let outputCode = document.getElementById("output");
 
     outputCode.contentDocument.body.innerHTML = htmlCode + "<style>" +cssCode+ "</style>";
